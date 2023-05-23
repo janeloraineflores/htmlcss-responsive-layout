@@ -16,3 +16,12 @@
 .small-container > *{
     text-align: center;
 }
+
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: .3125rem .625rem;
+    border-radius: 1.875rem;
+    margin-left: .625rem;
+}

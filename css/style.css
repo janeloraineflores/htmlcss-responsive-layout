@@ -18,15 +18,31 @@
 
 .header-content .nav-container ul{
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
 .header-content .nav-container ul li a{
     display: inline-block;
     text-decoration: none;
-    color: white;
-    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.726);
+    padding-left: 1.25rem;
+    font-size: .8125rem;
 }
+
+.header-content .logo-container{
+    width: 50px;
+}
+
+.header-content .logo-container img{
+    width: 100%;
+}
+
+.header-content .hamburger-container{
+    color: white;
+}
+
+
 
 
 /* MAIN */
