@@ -5,6 +5,7 @@
     --main-color: #0084FD;
     --main-color-light:#B5DDFF;
     --secondary-color: #9792E4;
+    --tertiary-color: rgba(0, 0, 0, 0.738);
 }
 
 
@@ -18,4 +19,8 @@
 
 .secondary-color-bg {
     background-color: var(--secondary-color);
+}
+
+.tertiary-color-bg{
+    background-color: var(--tertiary-color);
 }
