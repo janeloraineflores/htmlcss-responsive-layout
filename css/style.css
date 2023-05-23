@@ -29,6 +29,34 @@
 }
 
 
+/* MAIN */
+
+main section {
+    padding: 2.5rem 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.625rem;
+}
+
+.col{
+    width: calc(100% - 1.25rem);
+    margin: 0 0.625rem 1.25rem;
+}
+
+.left,
+.right{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -41,6 +69,26 @@
     ---------------------------------
 */
 
+/* TABLET da 768px in poi */
+
+@media screen and (min-width: 768px) {
+
+    /* header */
+
+    /* main */
+
+    .col {
+        width: calc((100% / 3) - 1.25rem);
+    }
+
+    .col.special {
+        width: calc(((100% / 3) * 2) - 1.25rem);
+    }
+
+
+    
+}
+
 
 
 /* DESKTOP da 992px in poi */
@@ -49,11 +97,6 @@
 
     /* header */
 
-    header .big-container{
-        width: 1000px;
-        margin: 0 auto;
-    }
-
     .header-content .hamburger-container{
         display: none;
     }
@@ -61,4 +104,29 @@
     .header-content .nav-container{
         display: block;
     }
+
+
+    /* main */
+
+    .col.special{
+        display: flex;
+    }
+
+    .col.special > div{
+        width: 50%;
+    }
+
+    .left,
+    .right{
+        width: 40%;
+        text-align: center;
+    }
+
+  
 }
+
+
+
+
+
+
