@@ -1,3 +1,64 @@
-@import url(reset.css);
-@import url(general.css);
-@import url(color.css);
+
+@import "reset.css";
+@import "general.css";
+@import "colors.css";
+
+
+/* HEADER */
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header-content .nav-container{
+    display: none;
+}
+
+.header-content .nav-container ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-content .nav-container ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+    ---------------------------------
+            RESPONSIVE
+    ---------------------------------
+*/
+
+
+
+/* DESKTOP da 992px in poi */
+
+@media screen and (min-width: 992px) {
+
+    /* header */
+
+    header .big-container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .header-content .hamburger-container{
+        display: none;
+    }
+
+    .header-content .nav-container{
+        display: block;
+    }
+}

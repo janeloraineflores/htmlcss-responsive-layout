@@ -9,13 +9,13 @@
 
 
 .main-color-bg{
-    color: var(--main-color);
+    background-color: var(--main-color);
 }
 
 .main-color-light-bg{
-    color: var(--main-color-light);
+    background-color: var(--main-color-light);
 }
 
-.main-color-bg {
-    color: var(--secondary-color);
+.secondary-color-bg {
+    background-color: var(--secondary-color);
 }
