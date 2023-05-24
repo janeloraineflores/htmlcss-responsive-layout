@@ -59,6 +59,7 @@ main section {
     margin: 0 0.625rem 1.25rem;
     padding-top: 1.875rem;
     padding-right: .3125rem;
+    padding-bottom: 1.25rem;
     border-radius: 1.25rem;
 }
 
@@ -189,6 +190,56 @@ img{
 
 .fifth-section .row button{
     color: white;
+}
+
+
+/* FOOTER */
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+}
+
+.footer-top *{
+    text-align: center;
+    margin-bottom: .625rem;
+}
+
+.footer-top h4{
+    color: rgba(0, 0, 0, 0.318);
+    font-size: .9375rem;
+}
+
+
+.footer-top h3,
+.footer-top p{
+    color: white;
+}
+
+.footer-top h2{
+    color: yellow;
+}
+
+.footer-top div{
+    font-size: .6875rem;
+    color: white;
+}
+
+.footer-top div a{
+    margin-top: .625rem;
+    color: white;
+}
+
+.footer-bottom{
+    padding: 1.25rem 1.25rem;
+}
+
+.footer-bottom *{
+    text-align: center;
+    color:  white;
+    margin-top: 1.25rem;
 }
 
 
