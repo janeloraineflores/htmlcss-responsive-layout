@@ -12,9 +12,10 @@
     margin: 0 auto;
 }
 
-.big-container,
-.small-container > *{
-    text-align: center;
+
+p{
+    font-size: .8125rem;
+    line-height: 1.25rem;
 }
 
 

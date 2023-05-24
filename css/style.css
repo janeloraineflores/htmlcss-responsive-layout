@@ -38,14 +38,11 @@
     width: 100%;
 }
 
-.header-content .hamburger-container{
-    color: white;
-}
-
 
 
 
 /* MAIN */
+
 
 main section {
     padding: 2.5rem 0;
@@ -54,27 +51,145 @@ main section {
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -0.625rem;
+ 
 }
 
 .col{
     width: calc(100% - 1.25rem);
     margin: 0 0.625rem 1.25rem;
+    padding-top: 1.875rem;
+    padding-right: .3125rem;
+    border-radius: 1.25rem;
 }
 
-.left,
-.right{
+.col > *{
+    padding-top: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: center;
+}
+
+.right > *{
+    text-align: center;
+}
+
+.left > *{
+    margin: .625rem;
+} 
+
+.left button{
+    color: white;
+    padding: .625rem 3.125rem;
+}
+
+.icon-container > *{
+    font-size: 3.75rem;
+}
+
+img{
     width: 100%;
 }
 
+.small-container .left > *{
+    margin-bottom: 3.75rem;
+}
+
+.small-container .right{
+    width: 100%;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 2.5rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-container .right > *{
+    margin-bottom: .625rem;
+}
+
+.small-container .right p{
+    font-style: italic;
+}
+
+.small-container .right a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 1.25rem;
+    color: black;
+}
+
+.third-section .big-container > * {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
 
 
+.third-section .image-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.card{
+    border-radius: 1.875rem;
+    padding: 1.25rem .625rem;
+    margin-bottom: 1.25rem;
+}
+
+.card > *{
+    color: white;
+}
+
+.info > p{
+    line-height: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.fourth-section h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.fourth-section .row .col{
+    background-color: white;
+    padding-bottom: 1.25rem;
+}
+
+.col > *{
+    text-align: left;
+}
+
+.col button{
+    color: white;
+    padding: .3125rem 1.25rem;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
 
 
+.fifth-section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
+.fifth-section .right > h3{
+    text-align: left;
+    margin: .625rem 0 ;
+}
 
 
+.fifth-section .row button{
+    color: white;
+}
 
 
 
@@ -101,6 +216,47 @@ main section {
         width: calc(((100% / 3) * 2) - 1.25rem);
     }
 
+    .left,
+    .right{
+        text-align: left;
+    }
+
+    .right{
+        width: 70%;
+        
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card > img {
+        width: 30%
+    }
+
+    .card > .info {
+        width: 70%;
+        text-align: left;
+    }
+
+    .fourth-section .row .col {
+        width: calc(90% / 2);
+    }
+ 
+    .fifth-section .row{
+        display: flex;
+    }
+   
+    .fifth-section .row > *{
+        width: calc((100% - 1.25rem) / 2);
+        
+    }
+
+    .fifth-section .row .left{
+        margin-right: 1.25rem;
+    }
+  
 
     
 }
@@ -132,10 +288,19 @@ main section {
         width: 50%;
     }
 
-    .left,
-    .right{
+    .small-container .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+       
+    }
+
+    .small-container .row > *{
         width: 40%;
-        text-align: center;
+    }
+
+    .fourth-section .row .col{
+        width: calc(90% / 3);
     }
 
   

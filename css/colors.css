@@ -6,6 +6,7 @@
     --main-color-light:#B5DDFF;
     --secondary-color: #9792E4;
     --tertiary-color: rgba(0, 0, 0, 0.738);
+    --white-color: white;
 }
 
 
@@ -13,14 +14,31 @@
     background-color: var(--main-color);
 }
 
+.main-color-text{
+    color: var(--main-color);
+}
+
 .main-color-light-bg{
     background-color: var(--main-color-light);
 }
+
+.main-color-light-text{
+    color: var(--main-color-light);
+}
+
 
 .secondary-color-bg {
     background-color: var(--secondary-color);
 }
 
+.secondary-color-text {
+    color: var(--secondary-color);
+}
+
 .tertiary-color-bg{
     background-color: var(--tertiary-color);
+}
+
+.text-white{
+    color: var(--white-color);
 }
